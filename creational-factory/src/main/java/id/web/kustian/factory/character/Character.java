@@ -4,7 +4,7 @@ import id.web.kustian.factory.weapon.Attack;
 import id.web.kustian.factory.weapon.DefaultWeapon;
 
 
-public class CharacterObject {
+public class Character {
     private String playerName = "Player";
     private String className = "Base Character";
     private Attack weapon = new DefaultWeapon();

@@ -1,13 +1,13 @@
 package id.web.kustian.factory.after;
 
-import id.web.kustian.factory.character.CharacterObject;
+import id.web.kustian.factory.character.Character;
 
 import java.util.Scanner;
 
 public class OtherGame {
     private static Scanner input;
-    private static CharacterObject player1;
-    private static CharacterObject player2;
+    private static Character player1;
+    private static Character player2;
 
     public static void main(String[] args) {
         System.out.println("Choose your Character : ");

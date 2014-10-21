@@ -12,14 +12,14 @@
 package id.web.kustian.factory.after;
 
 import id.web.kustian.factory.character.Assassin;
-import id.web.kustian.factory.character.CharacterObject;
+import id.web.kustian.factory.character.Character;
 import id.web.kustian.factory.character.Gunner;
 import id.web.kustian.factory.character.Knight;
 import id.web.kustian.factory.character.Ranger;
 import id.web.kustian.factory.character.Wizard;
 
 public class CharacterUsingWeaponFactory {
-    public static CharacterObject createPlayer(String jobClass) {
+    public static Character createPlayer(String jobClass) {
         if (jobClass.equalsIgnoreCase("A")) {
             Assassin c = new Assassin();
             c.setWeapon(WeaponFactory.createWeapon("rifle"));
